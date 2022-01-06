@@ -26,12 +26,9 @@ body {
   font-size: 14px;
   margin-left: 10px;
   padding: 5px 15px;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  appearance: none;
 }
 
-.container {
+.seatContainer {
   perspective: 300px;
   margin-bottom: 30px;
 }
@@ -60,7 +57,7 @@ body {
   margin-left: 20px;
 }
 
-.seat:not(.occupied):hover {
+.row .seat:not(.occupied):hover {
   cursor: pointer;
   transform: scale(1.2);
 }
